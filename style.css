@@ -1,8 +1,51 @@
 body{
+    display: grid;
+    grid-template-columns: 1fr 11fr 1fr;
+    grid-template-rows: 20vh 30vh 50vh;
+    padding: 10px;
+    background-image: url(./img/winter_bg3.jpg);
+}
 
+aside{
+    border: 2px solid black;
+}
+img{
+    border: 2px solid black;
+    margin: 10px;
+}
+
+.rubrik{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+h1{
+    text-align: center;
+    align-content: center;
+    border: black 2px solid;
+    padding: 10px;
+    width: 50%;
+    border: none;
+    background-color: rgb(91, 91, 91);
+    color: rgb(130, 139, 104);
 }
 
 main{
     display: grid;
     grid-template-columns: repeat(1fr, 7);
+}
+.ul{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+ul li{
+}
+ul{    
+    padding: 20px;
+    padding-left: 30px;
+    background-color: grey;
+    width: 30%;
+    height: fit-content;
 }
