@@ -1,0 +1,8 @@
+body{
+
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(1fr, 7);
+}
